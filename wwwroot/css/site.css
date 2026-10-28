@@ -1,0 +1,97 @@
+body {
+    background-color: #f5f6f9;
+    color: #253044;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra-principal {
+    background-color: #172b45;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.navbar .nav-link {
+    color: #e5ebf4;
+    margin-left: 8px;
+}
+
+.navbar .nav-link:hover {
+    color: #76baff;
+}
+
+.contenido-principal {
+    min-height: 70vh;
+    padding-top: 32px;
+}
+
+.bienvenida {
+    background-color: #e4edf8;
+    border: 1px solid #d6e2f1;
+}
+
+.bienvenida h1 {
+    color: #193657;
+}
+
+.subtitulo {
+    color: #386ea5;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.foto-principal {
+    width: 100%;
+    height: 265px;
+    object-fit: cover;
+    background: #d0ddeb;
+}
+
+.titulo-seccion, .titulo-pagina {
+    color: #193657;
+    margin-bottom: 18px;
+}
+
+.titulo-pagina {
+    font-size: 30px;
+}
+
+.tarjeta-producto {
+    border: 1px solid #e0e3e8;
+    box-shadow: 0 2px 5px rgba(0,0,0,.06);
+}
+
+.imagen-tarjeta {
+    height: 190px;
+    object-fit: cover;
+    background: #e2e9f3;
+}
+
+.precio {
+    color: #1a5b9c;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.nota {
+    margin-top: 20px;
+    color: #62748a;
+    font-size: 14px;
+}
+
+.contacto-card {
+    border: 1px solid #e1e6ef;
+}
+
+.pie-pagina {
+    background: #172b45;
+    color: #f2f5fa;
+}
+
+.producto-imagen {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}

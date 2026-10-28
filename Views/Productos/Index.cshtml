@@ -1,0 +1,70 @@
+@model IEnumerable<PCHIAPAS.Models.Producto>
+
+@{
+    ViewData["Title"] = "Catálogo";
+}
+
+<h1 class="titulo-pagina">Catálogo de computadoras</h1>
+
+<p class="text-muted">
+    Algunos de los equipos que ofrecemos en PCHIAPAS.
+</p>
+
+<div class="row g-4 mt-1">
+
+    @if (!Model.Any())
+    {
+        <div class="col-12">
+            <p>No hay productos registrados.</p>
+        </div>
+    }
+    else
+    {
+        @foreach (var producto in Model)
+        {
+            <div class="col-md-4">
+
+                <div class="card tarjeta-producto h-100">
+
+                    @if (!string.IsNullOrEmpty(producto.Imagen))
+                    {
+                        <img src="@producto.Imagen" class="producto-imagen" alt="@producto.Nombre" />
+                    }
+                    else
+                    {
+                        <div class="producto-imagen bg-light d-flex
+                            align-items-center justify-content-center">
+                            Sin imagen
+                        </div>
+                    }
+
+                    <div class="card-body">
+
+                        <h5 class="card-title">
+                            @producto.Nombre
+                        </h5>
+
+                        <p class="card-text mb-2">
+                            @producto.Procesador <br />
+                            @producto.Ram RAM <br />
+                            @producto.TarjetaGrafica <br />
+                            @producto.Almacenamiento
+                        </p>
+
+                        <p class="precio">
+                            $@producto.Precio.ToString("N2") MXN
+                        </p>
+
+                        <p class="text-muted mt-2">
+                            Existencia: @producto.Existencia
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+    }
+
+</div>

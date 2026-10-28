@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Ilustración de computadora">
+      <rect width="600" height="400" fill="#e4ebf5"/>
+      <circle cx="473" cy="92" r="135" fill="#5a91cf" opacity=".10"/>
+      <circle cx="120" cy="311" r="120" fill="#5a91cf" opacity=".08"/>
+
+        <rect x="95" y="75" width="285" height="182" rx="9" fill="#182538" stroke="#9caac1" stroke-width="5"/>
+        <rect x="109" y="90" width="257" height="151" rx="3" fill="#5a91cf" opacity=".7"/>
+        <path d="M110 204L182 150 237 185 367 104V241H110Z" fill="#e1eaf9" opacity=".44"/>
+        <rect x="218" y="256" width="36" height="39" fill="#526074"/><rect x="160" y="292" width="150" height="13" rx="5" fill="#526074"/>
+        <rect x="419" y="123" width="95" height="182" rx="9" fill="#2e3747" stroke="#99aac0" stroke-width="4"/>
+        <rect x="433" y="140" width="67" height="8" rx="4" fill="#6a90b2"/><circle cx="466" cy="273" r="5" fill="#5a91cf"/>
+        <path d="M117 335h294l18 20H92Z" fill="#7a899c"/><path d="M205 361h104" stroke="#626f80" stroke-width="7" stroke-linecap="round"/>
+
+    </svg>
